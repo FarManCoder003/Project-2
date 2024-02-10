@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  display: inline-block;
+}
+
+/* nav start */
+#nav {
+  background-color: #fbf3f0;
+}
+#nav .main-l-t {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+#nav .container img {
+  margin-left: 50px;
+  margin-right: 100px;
+}
+#nav ul li {
+  display: flex;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+#nav ul li:last-child {
+  margin-top: 0;
+}
+#nav ul li a {
+  padding: 0;
+  color: #29313d;
+  font-size: 18px;
+  font-weight: 600;
+}
+#nav ul li svg {
+  margin: 7px 0 0 5px;
+}
+#nav ul li a button {
+  width: 146px;
+  height: 64px;
+  border: none;
+  margin-left: 150px;
+  color: #ff5538;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #ff5538;
+  background-color: transparent;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+/* nav end */
+
+/* main start */
+#main img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -999;
+}
+#main h2 {
+  color: #29313d;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 100%; /* 24px */
+  text-transform: capitalize;
+  margin: 130px 0 20px 0;
+}
+#main h3 {
+  color: #29313d;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 130%; /* 83.2px */
+  text-transform: capitalize;
+}
+#main h4 {
+  color: #29313d;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%; /* 36px */
+  text-transform: capitalize;
+  margin-bottom: 216px;
+}
+/* main end */
+
+/* faq start */
+#faq {
+  height: 1541px;
+}
+#faq p {
+  color: #29313d;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 120px 0 64px 0;
+}
+#faq .input {
+  width: 466px;
+  height: 64px;
+  margin-bottom: 48px;
+  border: 1px solid #ff5538;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+#faq input {
+  border: none;
+  color: #29313d;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: transparent;
+  text-transform: capitalize;
+  padding: 14px 0 0 0;
+  margin-left: 28px;
+}
+#faq span {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  line-height: 42px;
+  padding-left: 5px;
+  margin-left: 155px;
+  background-color: rgba(255, 85, 56, 0.2);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+#faq .accordion {
+  background-color: #fff;
+
+  --bs-accordion-border-width: none;
+}
+#faq h2 button {
+  color: #29313d;
+  background-color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+#faq .accordion-button {
+  width: 85%;
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+#faq .accordion-button:focus {
+  background-color: #fff;
+
+  color: black;
+  border-color: none;
+  box-shadow: none;
+}
+#faq .accordion-button:not(.collapsed) {
+  color: black;
+  background-color: #fff;
+}
+#faq .accordion-item {
+  margin: 0 0 24px 0;
+}
+#faq .accordion-body {
+  color: #29313d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 200%; /* 36px */
+  text-transform: capitalize;
+}
+/* faq end */
+
+/* talk start */
+#talk {
+  position: relative;
+  padding: 100px 0;
+  background-color: #ffd7c8;
+}
+#talk img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#talk h2 {
+  color: #29313d;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 7px;
+}
+#talk h3 {
+  color: #29313d;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+#talk button {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 36px;
+  border: none;
+  padding: 14px 28px;
+  margin-left: 0;
+  color: #fdf9f8;
+  background: #ff5538;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+#talk h4 {
+  position: relative;
+  color: #29313d;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  text-transform: capitalize;
+  opacity: 0.8;
+}
+#talk h4::after {
+  content: "";
+  width: 1310px;
+  height: 1px;
+  position: absolute;
+  top: -24px;
+  left: 0;
+  opacity: 0.2;
+  z-index: 99;
+  background: #29313d;
+}
+/* talk end */
+
+/* footer start */
+footer {
+  padding: 140px 0 57px 0;
+}
+footer img {
+  margin-bottom: 44px;
+}
+footer h2 {
+  color: #29313d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.4px;
+  opacity: 0.8;
+  text-transform: capitalize;
+  margin-bottom: 189px;
+}
+footer ul li {
+  color: #29313d;
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.7;
+  line-height: 24px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  display: block;
+}
+footer h3 {
+  color: #29313d;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 48px;
+}
+footer h4 {
+  color: #29313d;
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.9;
+  text-transform: capitalize;
+}
+/* footer end */

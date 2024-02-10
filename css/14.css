@@ -1,0 +1,537 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  display: inline-block;
+}
+
+/* nav start */
+#nav {
+  background-color: #fbf3f0;
+}
+#nav .main-l-t {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+#nav .container img {
+  margin-left: 50px;
+  margin-right: 100px;
+}
+#nav ul li {
+  display: flex;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+#nav ul li:last-child {
+  margin-top: 0;
+}
+#nav ul li a {
+  padding: 0;
+  color: #29313d;
+  font-size: 18px;
+  font-weight: 600;
+}
+#nav ul li svg {
+  margin: 7px 0 0 5px;
+}
+#nav ul li a button {
+  width: 146px;
+  height: 64px;
+  border: none;
+  margin-left: 150px;
+  color: #ff5538;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #ff5538;
+  background-color: transparent;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+/* nav end */
+
+/* main start */
+#main img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -999;
+}
+#main h2 {
+  color: #29313d;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 100%; /* 24px */
+  text-transform: capitalize;
+  margin: 130px 0 20px 0;
+}
+#main h3 {
+  color: #29313d;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 130%; /* 83.2px */
+  text-transform: capitalize;
+}
+#main h4 {
+  color: #29313d;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%; /* 36px */
+  text-transform: capitalize;
+  margin-bottom: 216px;
+}
+/* main end */
+/* feature start */
+#feature {
+  position: relative;
+}
+#feature img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -999;
+}
+#feature h2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 140%; /* 50.4px */
+  text-transform: capitalize;
+  margin-top: 220px;
+}
+#feature h3 {
+  color: #29313d;
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 200%; /* 36px */
+  text-transform: capitalize;
+  margin-bottom: 260px;
+}
+/* feature end */
+
+/* what start */
+#what {
+  height: 900px;
+  position: relative;
+}
+#what img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -999;
+}
+#what h2 {
+  color: #29313d;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 31px 0 10px 0;
+}
+#what h3 {
+  color: #29313d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 200%; /* 36px */
+  text-transform: capitalize;
+}
+#what h4 {
+  color: #000;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 140%; /* 50.4px */
+  text-transform: capitalize;
+  margin: 48px 0 20px 0;
+}
+#what button {
+  width: 181px;
+  height: 64px;
+  border-radius: 18px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 200%; /* 36px */
+  text-transform: capitalize;
+  background: #ff5538;
+  margin-top: 38px;
+  border: none;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+/* what end */
+
+/* most start */
+#most h2 {
+  color: #29313d;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 140%; /* 67.2px */
+  text-transform: capitalize;
+}
+#most .box {
+  padding: 48px 0 48px 34px;
+  margin: 60px 0 140px 0;
+  background: #e5f5ff;
+}
+#most h3 {
+  color: #29313d;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 160%; /* 44.8px */
+  text-transform: capitalize;
+  margin: 40px 0 20px 0;
+}
+#most h4 {
+  color: #29313d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 200%; /* 36px */
+  text-transform: capitalize;
+}
+/* most end */
+
+/* trusted start */
+#trusted h2 {
+  color: #29313d;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 60px;
+}
+#trusted img {
+  width: 100%;
+  margin-bottom: 120px;
+}
+/* trusted end */
+
+/* team start */
+#team {
+  background: #edf3f7;
+  backdrop-filter: blur(5px);
+  height: 400px;
+  margin-bottom: 370px;
+}
+#team h2 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 80px;
+  margin-bottom: 8px;
+  color: #fd5f36;
+}
+#team h3 {
+  color: black;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -0.48px;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+#team .box {
+  position: relative;
+}
+#team .box .team-2-card {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#team .box .txt {
+  width: 223px;
+  height: 94px;
+  background-color: #fff;
+  position: absolute;
+  top: 280px;
+  left: 0;
+  padding: 22px 0 0 66px;
+  border-radius: 0px 10px 0px 0px;
+  -webkit-border-radius: 0px 10px 0px 0px;
+  -moz-border-radius: 0px 10px 0px 0px;
+  -ms-border-radius: 0px 10px 0px 0px;
+  -o-border-radius: 0px 10px 0px 0px;
+}
+#team .box .txt h4 {
+  position: relative;
+  color: #30344e;
+  margin-bottom: 6px;
+  font-size: 18px;
+  font-weight: 600;
+}
+#team .box .txt h4::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -44px;
+  width: 32.048px;
+  height: 2px;
+  border-radius: 100px;
+  background-color: #52c5b6;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+#team .box .txt h5 {
+  color: #5b5f77;
+  opacity: 0.7;
+  font-size: 14px;
+  font-weight: 400;
+}
+#team .box:hover .txt h4::after {
+  transition: 0.5s;
+  background-color: #fff;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+#team .box:hover .txt {
+  transition: 1s ease-in-out;
+  background-color: #ff5538;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -ms-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+}
+#team .box:hover .txt h4,
+#team .box:hover .txt h5 {
+  transition: 0.5s;
+  color: white;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+#team .team-plus {
+  position: absolute;
+  height: 224px;
+  top: 100px;
+  right: 22px;
+}
+#team .team-plus span {
+  display: flex;
+  font-size: 24px;
+  width: 44px;
+  height: 44px;
+  margin-top: 16px;
+  margin-bottom: 19px;
+  padding-left: 14px;
+  background-color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#team .team-plus .team-2-card-icon {
+  border: none;
+  opacity: 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+#team .team-plus:hover .team-2-card-icon {
+  opacity: 1;
+}
+#team .team-plus:hover span {
+  transition: 1s;
+  color: #fff;
+  background-color: #ff5538;
+  transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+  -moz-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  -o-transform: rotate(225deg);
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+/* team end */
+
+/* hundred start */
+#hundred {
+  padding: 120px 0;
+  margin: 120px 0 0 0;
+  height: 730px;
+  background: url(../images/hundred.png), center;
+  background-color: #fdf9f8;
+}
+#hundred .box {
+  height: 230px;
+  padding: 0;
+  margin: 0;
+  padding-top: 74px;
+  background-color: #fff;
+  margin-bottom: 30px;
+  margin-right: 10px;
+}
+#hundred .box h2 {
+  color: #29313d;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+#hundred .box h3 {
+  color: #29313d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: capitalize;
+}
+#hundred h4 {
+  color: #29313d;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 67.2px;
+  text-transform: capitalize;
+}
+#hundred h5 {
+  color: #29313d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+#hundred a button {
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  padding: 14px 28px;
+  margin-top: 40px;
+  color: #fff;
+  background: #ff5538;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+/* hundred end */
+
+/* talk start */
+#talk {
+  position: relative;
+  padding: 100px 0;
+  background-color: #ffd7c8;
+}
+#talk img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#talk h2 {
+  color: #29313d;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 7px;
+}
+#talk h3 {
+  color: #29313d;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+#talk button {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 36px;
+  border: none;
+  padding: 14px 28px;
+  margin-left: 0;
+  color: #fdf9f8;
+  background: #ff5538;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+#talk h4 {
+  position: relative;
+  color: #29313d;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  text-transform: capitalize;
+  opacity: 0.8;
+}
+#talk h4::after {
+  content: "";
+  width: 1310px;
+  height: 1px;
+  position: absolute;
+  top: -24px;
+  left: 0;
+  opacity: 0.2;
+  z-index: 99;
+  background: #29313d;
+}
+/* talk end */
+
+/* footer start */
+footer {
+  padding: 140px 0 57px 0;
+}
+footer img {
+  margin-bottom: 44px;
+}
+footer h2 {
+  color: #29313d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.4px;
+  opacity: 0.8;
+  text-transform: capitalize;
+  margin-bottom: 189px;
+}
+footer ul li {
+  color: #29313d;
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.7;
+  line-height: 24px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  display: block;
+}
+footer h3 {
+  color: #29313d;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 48px;
+}
+footer h4 {
+  color: #29313d;
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.9;
+  text-transform: capitalize;
+}
+/* footer end */

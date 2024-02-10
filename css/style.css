@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul li:hover {
+  background-color: black;
+}
+ul li:hover a {
+  color: white;
+}
+ul li {
+  font-size: 48px;
+}
+ul li a {
+  color: black;
+}
