@@ -16,6 +16,9 @@ ul li {
   display: inline-block;
 }
 
+body {
+  width: 1920px;
+}
 /* nav start */
 #nav {
   background-color: #fbf3f0;

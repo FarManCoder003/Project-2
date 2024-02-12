@@ -15,6 +15,9 @@ ul {
 ul li {
   display: inline-block;
 }
+body {
+  width: 1920px;
+}
 
 /* nav start */
 #nav {
