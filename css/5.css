@@ -15,9 +15,6 @@ ul {
 ul li {
   display: inline-block;
 }
-body {
-  width: 1920px;
-}
 .bg {
   position: absolute;
   top: 0;
@@ -36,12 +33,30 @@ body {
 }
 #nav .container img {
   margin-left: 50px;
-  margin-right: 200px;
 }
 #nav ul li {
   display: flex;
   margin-right: 30px;
   margin-top: 15px;
+}
+
+#nav ul.navbar-nav {
+  margin-left: 85px;
+}
+#nav ul li {
+  display: flex;
+}
+#nav ul.dropdown-menu {
+  --bs-dropdown-min-width: none;
+  background-color: transparent;
+  border: none;
+}
+#nav ul li.nav-item {
+  margin-right: 20px;
+  padding-top: 5px;
+}
+#nav ul li.dropdown-item {
+  width: 100%;
 }
 #nav ul li:last-child {
   margin-top: 0;
@@ -51,12 +66,6 @@ body {
   color: #29313d;
   font-size: 18px;
   font-weight: 600;
-}
-#nav ul li svg {
-  margin: 7px 0 0 5px;
-}
-#nav ul li svg path {
-  stroke: #29313d;
 }
 #nav ul li a button {
   width: 146px;
@@ -80,7 +89,7 @@ body {
   color: #3d3430;
   font-size: 64px;
   font-weight: 800;
-  margin-top: 244px;
+  margin-top: 144px;
 }
 #main h3 {
   color: #5f5450;
@@ -124,20 +133,20 @@ body {
   color: #3d3430;
   font-size: 56px;
   font-weight: 700;
-  margin: 132px 0 64px 0;
+  margin: 32px 0 64px 0;
 }
 #help h3 {
   color: #3d3430;
   font-size: 30px;
   font-weight: 700;
-  margin-top: 28px;
+  margin-top: 18px;
 }
 #help h4 {
   color: #5f5450;
   font-size: 18px;
   font-weight: 400;
   line-height: 36px;
-  margin-bottom: 82px;
+  margin-bottom: 102px;
 }
 /* help end */
 
@@ -196,7 +205,7 @@ body {
 /* make start */
 #make {
   position: relative;
-  padding: 140px 0 0 0;
+  padding: 80px 0 0 0;
 }
 #make .bg {
   position: absolute;
@@ -219,7 +228,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 36px;
-  margin-bottom: 114px;
+  margin-bottom: 40px;
 }
 /* make end */
 

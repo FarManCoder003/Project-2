@@ -12,9 +12,6 @@ ul {
   list-style: none;
   padding: 0;
 }
-body {
-  width: 1920px;
-}
 ul li {
   display: inline-block;
 }
@@ -32,10 +29,24 @@ ul li {
   margin-left: 50px;
   margin-right: 100px;
 }
+
+#nav ul.navbar-nav {
+  margin-top: 15px;
+  margin-left: 85px;
+}
 #nav ul li {
   display: flex;
-  margin-right: 30px;
-  margin-top: 15px;
+}
+#nav ul.dropdown-menu {
+  --bs-dropdown-min-width: none;
+  border: none;
+}
+#nav ul li.nav-item {
+  margin-right: 20px;
+  padding-top: 5px;
+}
+#nav ul li.dropdown-item {
+  width: 100%;
 }
 #nav ul li:last-child {
   margin-top: 0;
@@ -215,7 +226,7 @@ ul li {
 /* work start */
 #work {
   position: relative;
-  padding: 120px 0 400px 0;
+  padding: 40px 0 312px 0;
 }
 #work img {
   width: 100%;
@@ -230,10 +241,10 @@ ul li {
 }
 #work h2 {
   color: #fbfbfa;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 800;
   line-height: 50px; /* 104.167% */
-  margin-right: 79px;
+  margin-right: 29px;
 }
 #work h3 {
   color: #fbfbfa;
@@ -280,7 +291,7 @@ ul li {
 }
 #product h4 {
   color: #d6a033;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   text-transform: capitalize;
 }
@@ -290,7 +301,7 @@ ul li {
   font-weight: 400;
   line-height: 18px; /* 112.5% */
   text-transform: uppercase;
-  margin: 5px 0 0 92px;
+  margin: 5px 0 0 60px;
 }
 /* product end */
 
@@ -312,15 +323,15 @@ ul li {
   font-size: 48px;
   font-weight: 800;
   line-height: 50px; /* 104.167% */
-  margin-bottom: 156px;
+  margin-bottom: 126px;
 }
 #test h3,
 #test h4 {
   color: #524d43;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 40px; /* 200% */
-  margin-bottom: 260px;
+  margin-bottom: 150px;
 }
 /* test end */
 
@@ -341,13 +352,12 @@ ul li {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-bottom: 300px;
+  margin-bottom: 285px;
 }
 #blog h3 {
   color: #363024;
   font-size: 24px;
   font-weight: 600;
-  line-height: 32px; /* 133.333% */
 }
 #blog h4 {
   color: #524d43;
@@ -355,7 +365,7 @@ ul li {
   font-weight: 400;
   line-height: 24px; /* 133.333% */
   letter-spacing: 0.5px;
-  margin: 16px 0 32px 0;
+  margin: 8px 0 32px 0;
 }
 #blog a {
   color: #d6a033;
@@ -365,20 +375,20 @@ ul li {
   letter-spacing: 0.5px;
 }
 #blog .n1 {
-  margin-left: 115px;
+  margin-left: 110px;
 }
 #blog .n2 {
-  margin-left: 70px;
+  margin-left: 85px;
 }
 #blog .n3 {
-  margin-left: 70px;
+  margin-left: 85px;
 }
 /* blog end */
 
 /* footer start */
 footer {
   background-color: #181d21;
-  padding: 140px 0 57px 0;
+  padding: 140px 0 0 0;
   margin-top: 120px;
 }
 footer img {

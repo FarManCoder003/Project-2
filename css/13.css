@@ -12,9 +12,6 @@ ul {
   list-style: none;
   padding: 0;
 }
-body {
-  width: 1920px;
-}
 ul li {
   display: inline-block;
 }
@@ -33,10 +30,25 @@ ul li {
   margin-left: 50px;
   margin-right: 100px;
 }
+
+#nav ul.navbar-nav {
+  margin-top: 15px;
+  margin-left: 85px;
+}
 #nav ul li {
   display: flex;
-  margin-right: 30px;
-  margin-top: 15px;
+}
+#nav ul.dropdown-menu {
+  --bs-dropdown-min-width: none;
+  background-color: #fbf3f0;
+  border: none;
+}
+#nav ul li.nav-item {
+  margin-right: 20px;
+  padding-top: 5px;
+}
+#nav ul li.dropdown-item {
+  width: 100%;
 }
 #nav ul li:last-child {
   margin-top: 0;
@@ -81,7 +93,7 @@ ul li {
   font-weight: 400;
   line-height: 100%; /* 24px */
   text-transform: capitalize;
-  margin: 130px 0 20px 0;
+  margin: 13px 0 20px 0;
 }
 #main h3 {
   color: #29313d;
@@ -89,7 +101,7 @@ ul li {
   font-weight: 700;
   line-height: 130%; /* 83.2px */
   text-transform: capitalize;
-  margin-bottom: 240px;
+  margin-bottom: 120px;
 }
 /* main end */
 
@@ -136,8 +148,7 @@ ul li {
   -o-border-radius: 18px;
 }
 #what .box {
-  width: 891px;
-  height: 756px;
+  width: 118.3%;
   padding: 93px 0 0 0;
   margin-bottom: 120px;
   background: #fcf5f3;
@@ -167,7 +178,7 @@ ul li {
   font-weight: 400;
   line-height: 200%; /* 36px */
   text-transform: capitalize;
-  margin: 16px 0 52px 0;
+  margin: 16px 0 0 0;
 }
 /* what end */
 
@@ -184,11 +195,11 @@ ul li {
 #feature h2 {
   color: #000;
   font-family: Poppins;
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 600;
   line-height: 140%; /* 50.4px */
   text-transform: capitalize;
-  margin-top: 220px;
+  margin-top: 150px;
 }
 #feature h3 {
   color: #29313d;
@@ -197,7 +208,7 @@ ul li {
   font-weight: 400;
   line-height: 200%; /* 36px */
   text-transform: capitalize;
-  margin-bottom: 260px;
+  margin-bottom: 120px;
 }
 /* feature end */
 
@@ -220,7 +231,7 @@ ul li {
   background: #edf3f7;
   backdrop-filter: blur(5px);
   height: 400px;
-  margin-bottom: 370px;
+  margin-bottom: 240px;
 }
 #team h2 {
   font-size: 20px;
@@ -248,11 +259,11 @@ ul li {
   left: 0;
 }
 #team .box .txt {
-  width: 223px;
+  width: 194px;
   height: 94px;
   background-color: #fff;
   position: absolute;
-  top: 280px;
+  top: 240px;
   left: 0;
   padding: 22px 0 0 66px;
   border-radius: 0px 10px 0px 0px;
@@ -316,8 +327,8 @@ ul li {
 #team .team-plus {
   position: absolute;
   height: 224px;
-  top: 100px;
-  right: 22px;
+  top: 65px;
+  right: 15px;
 }
 #team .team-plus span {
   display: flex;
@@ -473,7 +484,7 @@ ul li {
 }
 #talk h4::after {
   content: "";
-  width: 1310px;
+  width: 100%;
   height: 1px;
   position: absolute;
   top: -24px;
@@ -486,7 +497,7 @@ ul li {
 
 /* footer start */
 footer {
-  padding: 140px 0 57px 0;
+  padding: 140px 0 0 0;
 }
 footer img {
   margin-bottom: 44px;

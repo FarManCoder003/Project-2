@@ -12,9 +12,6 @@ ul {
   list-style: none;
   padding: 0;
 }
-body {
-  width: 1920px;
-}
 ul li {
   display: inline-block;
 }
@@ -29,10 +26,24 @@ ul li {
   margin-left: 50px;
   margin-right: 100px;
 }
+
+#nav ul.navbar-nav {
+  margin-top: 15px;
+  margin-left: 85px;
+}
 #nav ul li {
   display: flex;
-  margin-right: 30px;
-  margin-top: 15px;
+}
+#nav ul.dropdown-menu {
+  --bs-dropdown-min-width: none;
+  border: none;
+}
+#nav ul li.nav-item {
+  margin-right: 20px;
+  padding-top: 5px;
+}
+#nav ul li.dropdown-item {
+  width: 100%;
 }
 #nav ul li:last-child {
   margin-top: 0;
@@ -42,12 +53,6 @@ ul li {
   color: #29313d;
   font-size: 18px;
   font-weight: 600;
-}
-#nav ul li svg {
-  margin: 7px 0 0 5px;
-}
-#nav ul li svg path {
-  stroke: #29313d;
 }
 #nav ul li a button {
   width: 165px;
@@ -82,7 +87,7 @@ ul li {
   font-size: 64px;
   font-weight: 800;
   line-height: 120%; /* 76.8px */
-  margin-top: 205px;
+  margin-top: 105px;
 }
 #main h3 {
   color: #486489;
@@ -99,7 +104,7 @@ ul li {
   font-size: 20px;
   font-weight: 700;
   background: #247ffb;
-  margin-bottom: 190px;
+  margin-bottom: 40px;
   border-radius: 100px;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
@@ -111,9 +116,8 @@ ul li {
 /* about start */
 
 #about {
-  height: 1169px;
   position: relative;
-  padding: 167px 0 0 0;
+  padding: 167px 0 200px 0;
 }
 #about img {
   position: absolute;
@@ -146,7 +150,7 @@ ul li {
   color: #486489;
   font-size: 20px;
   font-weight: 400;
-  line-height: 180%; /* 36px */
+  margin-bottom: 24px;
 }
 #about button {
   width: 225px;
@@ -241,7 +245,6 @@ ul li {
   font-size: 24px;
   font-weight: 400;
   text-transform: uppercase;
-  margin-top: 32px;
 }
 #why h3 {
   color: #001838;
@@ -276,7 +279,7 @@ ul li {
 
 /* our start */
 #our {
-  padding: 84px 0 0 0;
+  padding: 54px 0 0 0;
   position: relative;
 }
 #our img {
@@ -311,7 +314,7 @@ ul li {
   font-size: 20px;
   font-weight: 400;
   line-height: 180%; /* 36px */
-  margin: 30px 0 600px 0;
+  margin: 50px 0 400px 0;
 }
 /* our end */
 
@@ -369,8 +372,8 @@ ul li {
   color: #000;
   font-size: 20px;
   font-weight: 400;
-  padding: 420px 0 0 0;
-  margin: 0 0 230px 50px;
+  padding: 360px 0 0 0;
+  margin: 0 0 230px 40px;
 }
 /* news end */
 

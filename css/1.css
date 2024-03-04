@@ -15,9 +15,7 @@ ul {
 ul li {
   display: inline-block;
 }
-body {
-  width: 1920px;
-}
+
 /* nav start */
 #nav {
   background-color: #fbf3f0;
@@ -29,12 +27,23 @@ body {
   z-index: 99;
 }
 #nav .container img {
-  margin-left: 50px;
-  margin-right: 100px;
+  margin-right: 80px;
 }
 #nav ul li {
   display: flex;
-  margin-right: 30px;
+}
+
+#nav ul.dropdown-menu {
+  --bs-dropdown-min-width: none;
+  padding: 0 15px 5px 5px;
+  background-color: #fbf3f0;
+  border: none;
+}
+#nav ul li.dropdown-item {
+  width: 100%;
+}
+#nav ul li.nav-item {
+  margin-right: 20px;
   margin-top: 15px;
 }
 #nav ul li:last-child {
@@ -460,7 +469,7 @@ body {
 }
 #talk h4::after {
   content: "";
-  width: 1310px;
+  width: 100%;
   height: 1px;
   position: absolute;
   top: -24px;

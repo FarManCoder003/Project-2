@@ -15,10 +15,6 @@ ul {
 ul li {
   display: inline-block;
 }
-body {
-  width: 1920px;
-}
-
 /* nav start */
 #nav {
   background-color: #fbf3f0;
@@ -33,10 +29,25 @@ body {
   margin-left: 50px;
   margin-right: 100px;
 }
+
+#nav ul.navbar-nav {
+  margin-top: 15px;
+  margin-left: 85px;
+}
 #nav ul li {
   display: flex;
-  margin-right: 30px;
-  margin-top: 15px;
+}
+#nav ul.dropdown-menu {
+  --bs-dropdown-min-width: none;
+  background-color: #fbf3f0;
+  border: none;
+}
+#nav ul li.nav-item {
+  margin-right: 20px;
+  padding-top: 5px;
+}
+#nav ul li.dropdown-item {
+  width: 100%;
 }
 #nav ul li:last-child {
   margin-top: 0;
@@ -81,7 +92,7 @@ body {
   font-weight: 400;
   line-height: 100%; /* 24px */
   text-transform: capitalize;
-  margin: 130px 0 20px 0;
+  margin: 5px 0 20px 0;
 }
 #main h3 {
   color: #29313d;
@@ -99,7 +110,7 @@ body {
   font-weight: 400;
   line-height: 200%; /* 36px */
   text-transform: capitalize;
-  margin-bottom: 216px;
+  margin-bottom: 124px;
 }
 /* main end */
 /* feature start */
@@ -119,7 +130,7 @@ body {
   font-weight: 600;
   line-height: 140%; /* 50.4px */
   text-transform: capitalize;
-  margin-top: 220px;
+  margin-top: 120px;
 }
 #feature h3 {
   color: #29313d;
@@ -128,13 +139,12 @@ body {
   font-weight: 400;
   line-height: 200%; /* 36px */
   text-transform: capitalize;
-  margin-bottom: 260px;
+  margin-bottom: 64px;
 }
 /* feature end */
 
 /* what start */
 #what {
-  height: 900px;
   position: relative;
 }
 #what img {
@@ -148,11 +158,14 @@ body {
   font-size: 48px;
   font-weight: 600;
   text-transform: capitalize;
-  margin: 31px 0 10px 0;
+  margin: 10px 0 10px 110px;
+}
+#what .col-5 h3 {
+  margin-left: 110px;
 }
 #what h3 {
   color: #29313d;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 200%; /* 36px */
   text-transform: capitalize;
@@ -163,11 +176,14 @@ body {
   font-weight: 600;
   line-height: 140%; /* 50.4px */
   text-transform: capitalize;
-  margin: 48px 0 20px 0;
+  margin: 24px 0 15px 85px;
+}
+#what .col-7 h3 {
+  margin-left: 80px;
 }
 #what button {
-  width: 181px;
-  height: 64px;
+  width: 141px;
+  height: 54px;
   border-radius: 18px;
   color: #fff;
   font-size: 18px;
@@ -175,7 +191,8 @@ body {
   line-height: 200%; /* 36px */
   text-transform: capitalize;
   background: #ff5538;
-  margin-top: 38px;
+  margin-left: 64px;
+  margin-bottom: 250px;
   border: none;
   -webkit-border-radius: 18px;
   -moz-border-radius: 18px;
@@ -224,7 +241,7 @@ body {
 }
 #trusted img {
   width: 100%;
-  margin-bottom: 120px;
+  margin-bottom: 10px;
 }
 /* trusted end */
 
@@ -233,7 +250,7 @@ body {
   background: #edf3f7;
   backdrop-filter: blur(5px);
   height: 400px;
-  margin-bottom: 370px;
+  margin-bottom: 240px;
 }
 #team h2 {
   font-size: 20px;
@@ -261,11 +278,11 @@ body {
   left: 0;
 }
 #team .box .txt {
-  width: 223px;
+  width: 194px;
   height: 94px;
   background-color: #fff;
   position: absolute;
-  top: 280px;
+  top: 240px;
   left: 0;
   padding: 22px 0 0 66px;
   border-radius: 0px 10px 0px 0px;
@@ -329,8 +346,8 @@ body {
 #team .team-plus {
   position: absolute;
   height: 224px;
-  top: 100px;
-  right: 22px;
+  top: 65px;
+  right: 15px;
 }
 #team .team-plus span {
   display: flex;
@@ -486,7 +503,7 @@ body {
 }
 #talk h4::after {
   content: "";
-  width: 1310px;
+  width: 100%;
   height: 1px;
   position: absolute;
   top: -24px;
@@ -499,7 +516,7 @@ body {
 
 /* footer start */
 footer {
-  padding: 140px 0 57px 0;
+  padding: 140px 0 0 0;
 }
 footer img {
   margin-bottom: 44px;

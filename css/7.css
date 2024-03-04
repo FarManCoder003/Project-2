@@ -12,9 +12,6 @@ ul {
   list-style: none;
   padding: 0;
 }
-body {
-  width: 1920px;
-}
 ul li {
   display: inline-block;
 }
@@ -28,12 +25,27 @@ ul li {
 }
 #nav .container img {
   margin-left: 50px;
-  margin-right: 200px;
+  margin-right: 20px;
+}
+#nav ul.navbar-nav {
+  margin-top: 15px;
+  margin-left: 85px;
 }
 #nav ul li {
   display: flex;
-  margin-right: 30px;
-  margin-top: 15px;
+}
+#nav ul.dropdown-menu {
+  --bs-dropdown-min-width: none;
+  background-color: #43e7;
+
+  border: none;
+}
+#nav ul li.nav-item {
+  margin-right: 20px;
+  padding-top: 5px;
+}
+#nav ul li.dropdown-item {
+  width: 100%;
 }
 #nav ul li:last-child {
   margin-top: 0;
@@ -43,12 +55,6 @@ ul li {
   color: #ffffff;
   font-size: 18px;
   font-weight: 600;
-}
-#nav ul li svg {
-  margin: 7px 0 0 5px;
-}
-#nav ul li svg path {
-  stroke: #ffffff;
 }
 #nav ul li a button {
   width: 146px;
@@ -79,7 +85,7 @@ ul li {
   font-size: 56px;
   font-weight: 400;
   line-height: 64px;
-  margin: 103px 0 20px 0;
+  margin: 0 0 20px 0;
 }
 #main h3 {
   color: #fff;
@@ -98,14 +104,13 @@ ul li {
   border: 1px solid #b4b6c4;
   background-color: #fff;
   padding: 0 24px;
-  margin-bottom: 895px;
+  margin-bottom: 595px;
 }
 #main input {
   border: none;
   color: #b4b6c4;
   font-size: 16px;
   font-weight: 400;
-  /* padding: 20px 0; */
 }
 #main span {
   display: inline-block;
@@ -115,7 +120,6 @@ ul li {
   margin-left: 89px;
   width: 150px;
   height: 50px;
-  flex-shrink: 0;
   font-size: 18px;
   font-weight: 500;
   color: #2c2643;
@@ -134,8 +138,8 @@ ul li {
 }
 #use .bg {
   position: absolute;
-  top: 220px;
-  left: 259px;
+  top: 150px;
+  left: 239px;
 }
 #use h2 {
   color: #2c2643;
@@ -216,7 +220,7 @@ ul li {
 /* easy start */
 #easy {
   position: relative;
-  padding: 173px 0;
+  padding: 80px 0;
 }
 #easy img {
   position: absolute;
@@ -264,7 +268,7 @@ ul li {
 
 /* service start */
 #service {
-  padding: 140px 0;
+  padding: 100px 0;
 }
 #service h2 {
   color: #ff7364;
@@ -320,7 +324,7 @@ ul li {
 }
 #service h4 {
   color: #2c2643;
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 700;
   margin-bottom: 8px;
 }
@@ -495,7 +499,7 @@ ul li {
 
 /* test start */
 #test {
-  padding: 200px 0 348px 0;
+  padding: 160px 0 0 0;
   position: relative;
   margin-bottom: 160px;
 }
@@ -517,7 +521,7 @@ ul li {
   font-weight: 400;
   line-height: 32px;
   letter-spacing: -0.045px;
-  margin: 20px 0 40px 0;
+  margin: 20px 0 120px 0;
 }
 #test button {
   width: 196px;
@@ -536,7 +540,7 @@ ul li {
 
 /* find start */
 #find {
-  margin-bottom: -50px;
+  margin-bottom: -80px;
 }
 #find .container {
   position: relative;
@@ -554,12 +558,12 @@ ul li {
   color: #fff;
   font-size: 46px;
   font-weight: 400;
-  margin-top: 90px;
+  margin-top: 60px;
 }
 #find button {
   width: 192px;
   height: 60px;
-  margin-top: 128px;
+  margin-top: 98px;
   border: none;
   color: #2c2643;
   font-size: 18px;

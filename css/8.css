@@ -12,9 +12,6 @@ ul {
   list-style: none;
   padding: 0;
 }
-body {
-  width: 1920px;
-}
 ul li {
   display: inline-block;
 }
@@ -32,10 +29,23 @@ ul li {
   margin-left: 50px;
   margin-right: 100px;
 }
+#nav ul.navbar-nav {
+  margin-top: 15px;
+  margin-left: 85px;
+}
 #nav ul li {
   display: flex;
-  margin-right: 30px;
-  margin-top: 15px;
+}
+#nav ul.dropdown-menu {
+  --bs-dropdown-min-width: none;
+  border: none;
+}
+#nav ul li.nav-item {
+  margin-right: 20px;
+  padding-top: 5px;
+}
+#nav ul li.dropdown-item {
+  width: 100%;
 }
 #nav ul li:last-child {
   margin-top: 0;
@@ -67,9 +77,6 @@ ul li {
 /* nav end */
 
 /* main start */
-#main {
-  height: 866px;
-}
 #main img {
   position: absolute;
   top: 0;
@@ -78,15 +85,16 @@ ul li {
 }
 #main h2 {
   color: #192239;
-  font-size: 72px;
+  font-size: 52px;
   font-weight: 800;
-  margin: 207px 0 20px 0;
+  margin: 97px 0 20px 80px;
 }
 #main h3 {
   color: #6c7d93;
   font-size: 20px;
   font-weight: 400;
   line-height: 36px; /* 180% */
+  margin-left: 80px;
 }
 #main button {
   width: 232px;
@@ -98,6 +106,7 @@ ul li {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
+  margin-left: 80px;
   line-height: 24px; /* 120% */
   text-transform: capitalize;
   background: #ff7628;
@@ -111,7 +120,6 @@ ul li {
 
 /* service start */
 #service {
-  height: 831px;
   padding: 141px 0 0 0;
 }
 #service h2 {
@@ -125,11 +133,10 @@ ul li {
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
-  margin-bottom: 52px; /* 177.778% */
+  margin-bottom: 22px; /* 177.778% */
 }
 #service .box {
   padding: 47px 0;
-  height: 395px;
   text-align: center;
 }
 #service h4 {
@@ -182,30 +189,28 @@ ul li {
 /* service end */
 /* who start */
 #who {
-  height: 725px;
-  padding: 181px 0 0 0;
+  padding: 101px 0 0 0;
 }
 #who h2 {
   color: #192239;
   font-size: 48px;
   font-weight: 800;
   letter-spacing: 0.5px;
-  margin-bottom: 15px;
-  margin-left: 55px;
+  margin-bottom: 10px;
+  margin-left: 35px;
 }
 #who h3 {
   color: #6c7d93;
   font-size: 18px;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
-  margin-left: 55px;
+  line-height: 27px;
+  margin-left: 35px;
 }
 /* who end */
 
 /* work start */
 #work {
-  height: 1263px;
-  padding: 191px 0 0 0;
+  padding: 281px 0 0 0;
 }
 #work h2 {
   color: #192239;
@@ -222,7 +227,7 @@ ul li {
   letter-spacing: 0.5px;
   text-transform: capitalize;
   margin-left: 80px;
-  margin-top: 47px;
+  margin-top: 17px;
 }
 #work h3:hover {
   color: #ff7628;
@@ -231,8 +236,7 @@ ul li {
 
 /* our start */
 #our {
-  height: 1430px;
-  padding: 161px 0 0 0;
+  padding: 750px 0 0 0;
 }
 #our h2 {
   color: #192239;
@@ -244,15 +248,15 @@ ul li {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px; /* 166.667% */
-  margin-bottom: 111px;
+  margin-bottom: 19px;
 }
 #our .box {
-  width: 465px;
+  width: 405px;
   height: 207px;
   padding: 27.88px 0 20px 24px;
   background: #ebf7e9;
   margin-top: 15px;
-  margin-bottom: 125px;
+  margin-bottom: 15px;
   box-shadow: 0px 30px 60px 0px rgba(162, 169, 192, 0.1);
   border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -280,7 +284,7 @@ ul li {
   line-height: 30px; /* 166.667% */
 }
 #our .n1 {
-  margin-left: 65px;
+  margin-left: 145px;
 }
 /* our end */
 
@@ -328,8 +332,7 @@ ul li {
 }
 #client .box {
   width: 370px;
-  height: 378px;
-  padding: 25px 0 0 40px;
+  padding: 25px 40px;
   background: #d8eaff;
   box-shadow: 0px 30px 60px 0px rgba(162, 169, 192, 0.1);
   border-radius: 20px;
@@ -342,7 +345,7 @@ ul li {
 
 /* blog start */
 #blog {
-  padding: 165px 0 118px 0;
+  padding: 75px 0 118px 0;
 }
 #blog h2 {
   color: #413f45;
@@ -360,14 +363,14 @@ ul li {
   margin: 25px 0 52px 0;
 }
 #blog .box {
-    border: 1px solid #EFEFEF;
-    background: #FFF;
-    box-shadow: 0px 28px 30px 0px rgba(99, 122, 166, 0.05);
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
+  border: 1px solid #efefef;
+  background: #fff;
+  box-shadow: 0px 28px 30px 0px rgba(99, 122, 166, 0.05);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
 }
 #blog h4 {
   color: #504b5a;

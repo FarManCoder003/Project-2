@@ -12,9 +12,6 @@ ul {
   list-style: none;
   padding: 0;
 }
-body {
-  width: 1920px;
-}
 ul li {
   display: inline-block;
 }
@@ -29,10 +26,24 @@ ul li {
   margin-left: 50px;
   margin-right: 100px;
 }
+
+#nav ul.navbar-nav {
+  margin-top: 15px;
+  margin-left: 85px;
+}
 #nav ul li {
   display: flex;
-  margin-right: 30px;
-  margin-top: 15px;
+}
+#nav ul.dropdown-menu {
+  --bs-dropdown-min-width: none;
+  border: none;
+}
+#nav ul li.nav-item {
+  margin-right: 20px;
+  padding-top: 5px;
+}
+#nav ul li.dropdown-item {
+  width: 100%;
 }
 #nav ul li:last-child {
   margin-top: 0;
@@ -78,7 +89,7 @@ ul li {
   font-size: 64px;
   font-weight: 800;
   text-transform: capitalize;
-  margin: 190px 0 20px 0;
+  margin: 100px 0 0 0;
 }
 #main h3 {
   color: #29313d;
@@ -95,7 +106,7 @@ ul li {
   font-size: 18px;
   font-weight: 400;
   border: none;
-  margin-bottom: 267px;
+  margin-bottom: 167px;
   text-transform: capitalize;
   background: #6a55ea;
   border-radius: 20px;
@@ -107,9 +118,7 @@ ul li {
 /* main end */
 
 /* offer start */
-#offer {
-  padding: 100px;
-}
+
 #offer h2 {
   color: #29313d;
   font-size: 48px;
@@ -120,7 +129,7 @@ ul li {
 }
 #offer h3 {
   color: #29313d;
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 600;
   line-height: 140%; /* 39.2px */
   text-transform: capitalize;
@@ -158,7 +167,7 @@ ul li {
 
 /* let start */
 #let {
-  padding: 96px 0 120px 0;
+  padding: 96px 0;
 }
 #let h2 {
   color: #29313d;
@@ -176,7 +185,7 @@ ul li {
 }
 #let h4 {
   color: #29313d;
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 600;
   line-height: 140%; /* 39.2px */
   text-transform: capitalize;
@@ -201,8 +210,12 @@ ul li {
 
 /* app start */
 #app {
-  padding: 120px 0 192px 0;
+  padding: 64px 0;
   background-color: rgba(248, 253, 254, 0.5);
+}
+#app h2 {
+  color: #29313d;
+  font-size: 48px;
 }
 /* app end */
 
@@ -221,14 +234,14 @@ ul li {
   font-size: 48px;
   font-weight: 600;
   text-transform: capitalize;
-  margin: 120px 0 310px 0;
+  margin: 120px 0 210px 0;
 }
 #trust button {
   width: 151px;
   height: 64px;
   border: none;
   color: #f8fdfe;
-  margin-top: 155px;
+  margin-top: 115px;
   font-size: 18px;
   font-weight: 400;
   text-transform: capitalize;
@@ -282,7 +295,7 @@ ul li {
   height: 5px;
   position: absolute;
   bottom: -3px;
-  left: 185px;
+  left: 150px;
   border-radius: 30px;
   background: #6a55ea;
   z-index: 99;
@@ -338,13 +351,14 @@ ul li {
   margin-bottom: 47px;
 }
 #pricing span {
-  display: inline-block;
-  width: 174px;
-  height: 64px;
-  line-height: 64px;
+  display: block;
+  width: 274px;
+  height: 54px;
+  line-height: 54px;
+  padding: 0 15px;
   text-align: center;
   border-radius: 20px;
-  margin-left: 99px;
+  margin-left: 69px;
   background: #6a55ea;
   color: #f8fdfe;
   font-size: 18px;

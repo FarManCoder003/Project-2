@@ -1,22 +1,22 @@
-* {
-  margin: 0;
-  padding: 0;
-  outline: 0;
-  box-sizing: border-box;
-}
-a {
-  text-decoration: none;
-  display: inline-block;
-}
-ul li:hover {
+.back2top:hover .back {
   background-color: black;
-}
-ul li:hover a {
   color: white;
 }
-ul li {
-  font-size: 48px;
-}
-ul li a {
-  color: black;
+.back2top .back {
+  position: fixed;
+  font-size: 32px;
+  bottom: 0;
+  right: 0;
+  z-index: 9999999999999;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  display: none;
 }
